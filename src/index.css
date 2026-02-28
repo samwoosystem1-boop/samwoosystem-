@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans KR", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary-blue: #003399;
+  --color-electric-blue: #00AEEF;
+  --color-deep-navy: #0A192F;
+  --color-slate-blue: #112240;
+  --color-soft-gray: #F4F7F6;
+  --color-text-dark: #333333;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-white bg-deep-navy;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .btn-primary {
+    @apply bg-primary-blue text-white px-6 py-3 rounded-lg font-medium transition-all hover:bg-primary-blue/90 active:scale-95;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+}
