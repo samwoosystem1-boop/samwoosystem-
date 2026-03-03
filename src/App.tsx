@@ -8,6 +8,7 @@ import Hero from './components/Hero';
 import PartnerSection from './components/PartnerSection';
 import SolutionSection from './components/SolutionSection';
 import LibrarySection from './components/LibrarySection';
+import LocationSection from './components/LocationSection';
 import Footer from './components/Footer';
 import QuickInquiry from './components/QuickInquiry';
 import { motion } from 'motion/react';
@@ -73,6 +74,7 @@ export default function App() {
         <PartnerSection />
         <SolutionSection />
         <LibrarySection />
+        <LocationSection />
       </main>
 
       <Footer />

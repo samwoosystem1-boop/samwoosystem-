@@ -22,6 +22,8 @@ export default function Footer() {
               <li><a href="#partners" className="hover:text-white transition-colors">파트너 브랜드</a></li>
               <li><a href="#solutions" className="hover:text-white transition-colors">산업별 솔루션</a></li>
               <li><a href="#library" className="hover:text-white transition-colors">기술 자료실</a></li>
+              <li><a href="#location" className="hover:text-white transition-colors">오시는 길</a></li>
+              <li><a href="#contact" className="hover:text-white transition-colors">연락처</a></li>
             </ul>
           </div>
 
@@ -61,7 +63,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 uppercase font-bold mb-1">Office</p>
-                  <p className="text-sm">전남 광양시 불로로 160-6</p>
+                  <p className="text-sm">전남 광양시 불로로 160-6번지</p>
                 </div>
               </div>
             </div>
